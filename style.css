@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url('runu.jpg'); */
+    background-color: rgb(133, 192, 192);
+    background-size: 100% 100%;
+
+}
+.centercalcy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+form{
+    width: 400px;
+    height: 520px;
+    box-shadow: 0 0 10px 1px rgb(17, 53, 170);
+    margin-top: -6rem;
+}
+#aap_name{
+    width: inherit;
+    font-size: 1.8rem;
+    padding: 2px 0  2px 10px;
+    background-color: #171718;
+    color: white;
+    border:none ;
+    outline: none;
+}
+#display_answer{
+    width: inherit;
+    height: 100px;
+    background-color: #303030;
+    font-size: 2rem;
+    color: white;
+    text-align: right;
+    outline: none;
+    border: none;
+}
+.layer1{
+    width: inherit;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+.leyar2{
+    width: inherit;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    flex: 1; font-size: 1.4rem; color: white;
+    border: 1px solid #504f4f;
+    outline: none;
+}
+.main_num{
+    background-color: #101011;
+    color: white;
+}
+.oper{
+    background-color: #125b64;
+
+}
+.clearbutton{
+    font-size: 1rem;
+}
+input:hover{
+    background: #474747;
+    border: 1px solid gray;
+}
